@@ -1,0 +1,7 @@
+services:
+  convos:
+    image: ghcr.io/convos-chat/convos:stable
+    ports:
+      - 2021:3000
+    volumes:
+      - ${PWD}/convos:/data
